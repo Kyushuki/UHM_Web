@@ -121,7 +121,7 @@ h4, p {
     height: 137px;
     border-radius: 1972px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 30%) {
     body {
         display: grid;
         grid-template-areas:
