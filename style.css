@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Comic Neue";
+    font-style: normal;
+    src: url(fonts/ComicNeue-Regular.ttf);
+}
+#hidemenu{
+    display: none;
+    box-sizing: border-box;
+    border-radius: 34px;
+    width: 348px;
+    height: 550px;
+    background: #D9D9D9;
+    
+
+    position: fixed; 
+    right: 25px;
+    top: 100px;
+}
+body {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "article article"
+    "footer footer" ;
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: repeat(auto-fit, minmax(10%,1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 140vh;
+    margin: 0;
+    font-family: "Comic Neue";
+    background: url(images/IMG_20220818_154211_976.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+li {
+    float : left;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 32px;
+}
+li a {
+    
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+  }
+li a:hover {
+    color: white;
+  }
+p a{
+    color: black;
+    text-decoration: none;
+}
+p a:hover {
+    color:white;
+}
+header {
+    grid-area: header;
+}
+article {
+    grid-area: article;
+}
+footer {
+    grid-area: footer;
+}
+#avatar {
+    width: 83px;
+    height: 83px;
+    left: 14px;
+    top: 12px;
+    border-radius: 1972px;
+}
+#menu {
+    width: 63px;
+    height: 41px;
+}
+#rec{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1344px;
+    height: 796px;
+    left: 49px;
+    right: 49px;
+    top: 199px;
+
+    background: #F8F1F1;
+    
+
+    border-radius: 43px;
+}
+#articletable {
+    width: 100%;
+    height: 100%;
+   
+}
+h4, p {
+    font-size: 32px;
+}
+.Newest {
+    position: absolute;
+    width: 457px;
+    height: 521px;
+    left: 19px;
+    top: 171px;
+    border-radius: 16px;
+}
+.phmenu{
+    width: 149px;
+    height: 137px;
+    border-radius: 1972px;
+}
+@media screen and (max-width: 900px) {
+    body {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "article"
+        "footer" ;
+        grid-template-rows: 80px 1fr 70px;  
+        grid-template-columns: repeat(auto-fit, minmax(10%,1fr));
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        height: 140vh;
+        
+}
+}
+/* Использовался собственно разработанный дизайн в Figma : https://www.figma.com/file/fXi0c0pdJcGFdz54GwsA19/KyuTema's-site?type=design&node-id=8%3A47&t=3bimhUk1aEy0SnW7-1 */
