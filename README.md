@@ -1,3 +1,3 @@
-# kyushuki.github.io
-Мой собственный <i>сайт-визитка</i>    
-Изначально создан для выполнения домашнего задания  <i>"Верстка блока"</i>
+# University Homework Web
+This is my homework solution for task <i><b>"Layout of the block"</b></i>
+Designed by me in Figma 
